@@ -1,0 +1,70 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+
+
+
+
+
+.btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+}
+
+#intro {
+    background: url('/images/backgroundimage.png')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-color: black;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #24355C;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #24355C;
+    }
+}
